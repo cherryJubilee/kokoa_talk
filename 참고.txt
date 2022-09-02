@@ -1,0 +1,26 @@
+아이콘
+https://heroicons.com/
+https://fontawesome.com/
+
+폰트
+https://fonts.google.com/
+
+사이즈 재는것
+page ruler redux
+
+원하는 색상 가져오기
+colorzilla
+
+
+패딩 신경안쓰게 하는방법, 박스사이즈 변경 하지말라고 하기.
+ box-sizing: border-box;
+
+ position = 원하는 위치에 요소를 배치할때 사용되는 속성
+- static : 기본적으로 생성되는 위치(기본값)
+- relative : 기본위치에서 이동을 시킬때 사용되는 값
+- absolute : 절대위치를 기준으로 이동시킬때 사용되는 값 (relative랑 같이쓰임.)
+- fixed : 고정값
+
+display: block;
+blcok 태그는 inline 과 달리 width, height, margin, padding 속성 적용가능
+옆에 요소가 올 수 없음
