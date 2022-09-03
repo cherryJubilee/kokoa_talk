@@ -24,3 +24,12 @@ colorzilla
 display: block;
 blcok 태그는 inline 과 달리 width, height, margin, padding 속성 적용가능
 옆에 요소가 올 수 없음
+
+text-align
+align-items
+
+숙제
+6-22,23
+채팅창 개수 늘려보기
+설정 오른쪽 위 점 만들기
+rgba 변수 만들기

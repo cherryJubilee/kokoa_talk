@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Chats - Kokoa Talk</title>
+    <title> Find - Kokoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,35 +24,44 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <span class="screen-header__icon">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icon">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="../IMG_8999.jpg" 
-            class="user-components__avatar user-components__avatar"/>
-          <!-- <img
-            src="../IMG_8999.jpg" 
-            class="user-components__avatar user-components__avatar"/> -->
-          <div class="user-component__text">
-            <h4 class="user-component__title">Jeongwon</h4>
-            <h6 class="user-component__subtitle">Pleas check My Kakao Account Info</h6>
-          </div>
-        </div>  
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
-          </div>
-        </div>    
-      </div>  
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fas fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span class="recommended-friends__text">You have no recommended friends.</span>
+        </div>
+        <div class="Open-Chat">
+            <div class="Open-Chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to openchat Home
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </span>             
+            </div>
+        </div>
     </main>
  
 
@@ -67,7 +76,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
