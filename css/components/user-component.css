@@ -55,3 +55,9 @@
     display: block;
 }
 
+.user-component__text i {
+    color: red;
+    margin-left: 3px;
+    font-size: 18px
+
+
