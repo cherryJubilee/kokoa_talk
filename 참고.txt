@@ -33,3 +33,18 @@ align-items
 채팅창 개수 늘려보기
 설정 오른쪽 위 점 만들기
 rgba 변수 만들기
+
+
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
+
+.alt-header__column:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
