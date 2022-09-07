@@ -1,6 +1,6 @@
 .icon-row {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     /* justify-content: space-between; */
 }
 
@@ -11,6 +11,13 @@
     width: 25%;
     padding: 20px;
     box-sizing: border-box;
+    transition: color 0.3s ease-in-out;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-row__icon:hover {
+    cursor: pointer;
+    color: black;
 }
 
 .icon-row__icon i {
